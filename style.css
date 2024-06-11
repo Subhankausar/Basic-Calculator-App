@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Cagliostro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cagliostro', cursive;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#calc {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 2em;
+  padding: 10px;
+  text-align: right;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5em;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.operator {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+button:active {
+  background-color: #ccc;
+}
