@@ -53,7 +53,7 @@
       display.innerText = text;
     } 
     else if(str.length()==0){
-      display.innertext.style.visibility=hidden;
+      display.innerText.style.visibility=hidden;
     }else {
       display.innerText += text;
     }
