@@ -52,9 +52,7 @@
     if (display.innerText === "0") {
       display.innerText = text;
     } 
-    else if(str.length()==0){
-      display.innerText.style.visibility=hidden;
-    }else {
+   else {
       display.innerText += text;
     }
     str += text;
