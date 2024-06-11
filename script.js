@@ -51,7 +51,10 @@
     // If the current display value is "0", replace it with the new text
     if (display.innerText === "0") {
       display.innerText = text;
-    } else {
+    } 
+    else if(str.length()==0){
+      display.innertext.style.visibility=hidden;
+    }else {
       display.innerText += text;
     }
     str += text;
